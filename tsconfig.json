@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                    // Output JS-Version (z. B. ES6, ES2020)
+      "module": "ES6",                    // Modul-System (ES6 für Browser, CommonJS für Node)
+      "strict": true,                     // Aktiviert alle strikten Prüfungen
+      "esModuleInterop": true,           // Ermöglicht Import von CommonJS-Modulen
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "./dist",                 // Output-Ordner für kompilierte JS-Dateien
+      "rootDir": "./src",                 // Wo deine .ts-Dateien liegen
+      "skipLibCheck": true               // Überspringt Typprüfung in node_modules
+    },
+    "include": ["src/**/*"]              // Welche Dateien sollen kompiliert werden
+  }
+  
